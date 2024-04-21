@@ -156,7 +156,7 @@ updateCartModal()
 function checkHour(){
     const data = new Date()
     const hora = data.getHours()
-    return hora >= 18 && hora <00;
+    return hora >= 18 && hora <23;
 }
 const span = document.querySelector('#date-span')
 const isOpen = checkHour()
